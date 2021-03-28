@@ -1,4 +1,8 @@
-ROI.API: writen in .NET Core 3.1
+ROI.API: 
+Folder "ROI.API"
+writen in .NET Core 3.1
+How To build: Use Visual Studio 2019 to open ROI.API.sln
+
 The following APIs are provided:
 1. Get total ROI results according to all options settings.
 POST http://host/ori
@@ -27,7 +31,13 @@ Both APIs return the object:
 
 ====================================================================
 ROI.React:
-The source code is under "roi-app".
+Folder: ROI.React/roi-app
+How to build: 
+(1) Use Visual Studio Code to open folder ROI.React/roi-app
+(2) In "Terminal" console, run command "npm install" to get all packages
+(3) Run command "npm start" to start from http://localhost:3000
+
+-------------------------
 The ROI.API URL is set "baseURL" in "roi-app/src/Config.js":
 module.exports = {
     baseURL: "http://localhost:31377"
